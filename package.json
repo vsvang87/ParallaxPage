@@ -1,0 +1,19 @@
+{
+  "name": "parallaxpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsvang87/ParallaxPage.git"
+  },
+  "author": "Visay Vang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsvang87/ParallaxPage/issues"
+  },
+  "homepage": "https://github.com/vsvang87/ParallaxPage#readme"
+}

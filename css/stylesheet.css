@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:ital,wght@0,400;1,300;1,400&family=Montserrat:wght@200&family=PT+Sans&family=Quicksand:wght@500&family=Spline+Sans:wght@300&display=swap");
+:root {
+  --color-dark: #222831;
+  --color-medium: #393e46;
+  --color-light: #7fa99b;
+}
+body {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+/* Main Page Image*/
+.header__container {
+  background-image: url(/image/pexels-pixabay-290144.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.border {
+  text-align: center;
+}
+.image {
+  background-attachment: fixed;
+}
+.img1 {
+  background-image: url(/image/milwaukeelakefront.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+.img2 {
+  background-image: url(/image/pexels-connor-martin-5526485.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+.img4 {
+  background-image: url(/image/downtownmilwaukee.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  position: relative;
+}
+p {
+  text-align: center;
+}
+.section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.section__three {
+  background-color: var(--color-dark);
+}
+.section__three p {
+  color: white;
+}
+.section__four {
+  background-color: var(--color-dark);
+}
+.section__four p {
+  color: white;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-size: 1.5rem;
+}
+.border .ptext {
+  background-color: #393e46;
+  color: white;
+}
