@@ -60,6 +60,11 @@ body {
   width: 100%;
   position: relative;
 }
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
 p {
   text-align: center;
 }
@@ -90,6 +95,5 @@ p {
   font-size: 1.5rem;
 }
 .border .ptext {
-  background-color: #393e46;
   color: white;
 }
